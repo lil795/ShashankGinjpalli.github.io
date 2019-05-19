@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins" , sans-serif;
+  color: #222;
+  scroll-behavior: smooth;
+
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.navbar-spacing{
+  padding-top: 2rem;
+}
+
+.padding{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar{
+  background-color: #ff652f;
+}
+
+h1{
+  color: #ff652f;
+}
+
+.asu img{
+  width: 75%;
+  height: auto;
+}
+
+.oneclass img{
+  width: 75%;
+  height: auto;
+}
+
+.asu h1{
+  font-size: 175%;
+}
+
+.oneclass h1{
+  font-size: 175%;
+}
+
+.asu h3{
+  font-size: 150%;
+}
+
+.oneclass h3{
+  font-size: 150%;
+}
+
+  hr{
+    padding-top: 2rem;
+    border-top: 3px solid #ff652f;
+    color: #ff652f;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fa-windows, .fa-linux, .fa-apple, .fa-css3, .fa-code,
+  .fa-java, .fa-python, .fa-laptop-code, .fa-terminal {
+    font-size: 4em;
+    margin: 1rem;
+  }
+
+  .fa-linkedin, .fa-github, .fa-envelope{
+    font-size: 6em;
+    margin: 1rem;
+    color:#222;
+  }
+
+  .fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover{
+    font-size: 5.8em;
+    margin: 1rem;
+    color:#666;
+    filter: blur(2px);
+  }
+
+  #aboutme p{
+    font-size: 1.5em;
+  }
+
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+ @media (max-width: 992px){
+    #aboutme img{
+      margin-left: auto;
+      margin-right:auto;
+      display: block;
+      width: 50%;
+    }
+
+  }
+
+  @media (max-width: 992px){
+    #Projects .card{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width:75%;
+    }
+
+
+  }
+
+
+
+  /*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
