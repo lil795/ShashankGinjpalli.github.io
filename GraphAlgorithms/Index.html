@@ -1,0 +1,215 @@
+<!DOCTYPE html5>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> An Introduction to Graph Algorithms </title>
+    
+    <!-- Importing Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+    
+    
+    
+    <!-- Adding the regular stylesheet-->
+    <link rel = "stylesheet" href = "styles.css">
+    
+    </head>
+    
+
+    <body>
+
+        <!--Introduction Section -->
+
+        
+        <div class = "Intro-Background sticky-top">
+            <div class = "container-fluid">
+
+                <h1 class = "Introduction">An Introduction To Graph Algorithms </h1>
+                <h5 class = "Introduction">//Shashank Ginjpalli</h5>
+                <br>
+            </div>
+        </div>
+
+        <br>
+
+        <!--What is a Graph-->
+        <div class = "container-fluid">
+            <div class = "heading_box">
+                <h3 class = "heading">What is a Graph?</h3>
+            </div>
+            <p class = "para align-content-center">
+                    Graphs are a way to organize data on a computer. The simplest form of a graph in our daily lives is a recipe which calls for a specific number of ingredients to be added to the mixing bowl in a very specific order in order for the recipe to come out right. Another example of a graph that we see every single time we open our computers is the file management system in our computers. It is simple to see how a file management system is represented by a graph because you cant go to a file that is nested within folders without first going to those folders in order to get to the file, otherwise known as a list of dependencies. Graphs are also useful in services such as the internet, because when you have search engines such as Google, it is a lot simpler to use a graph to represent webpages rather than running through a list of every known website on the internet. Graphs can stored in computers in 2 different ways each of which has its advantages and its disadvantages. These two ways are through forms called adjacency lists and adjacency matrices.
+            </p>
+            <div class = "graphEX">
+                <img class = "graphEX" src="img/Social-network-links.jpg">
+
+                <br>
+                <p>An Example of how a Graph may be used in social media platforms</p>
+            </div>
+
+
+            
+
+
+        </div>
+
+
+        <!--Adjacency Lists-->
+        <div class = "container-fluid">
+            <div class = "heading_box">
+                <h3 class = "heading">Adjacency Lists</h3>
+            </div>
+
+            <p class = "para align-content-center">
+                    The first way that Graphs can be stored in a computer is in the form of an adjacency list. The graph is stored in an array of linked lists where each vertex is an element of the array and the linked list represents the vertices of the graph that are connected to the initial vertex. Graphs may also have parameters called weight that are used in order to classify edges and can also be stored in the adjacency list. An adjacency list has the space complexity of the number of vertices + the number of edges in the graph because for each vertex of the graph there spot in the array and for each edge of the graph, there is a node in the linked list. However, this is not the only way to store a graph.
+            </p>
+
+            <div class = "adjacencyList">
+                <img class = "adjacencyList" src = "img/AdjacencyList.png">
+                <br>
+                <p>How a Graph is translated into an Adjacency List</p>
+
+            </div>
+
+
+        </div>
+
+        <!--Adjacency Matrix-->
+        <div class = "container-fluid">
+                <div class = "heading_box">
+                    <h3 class = "heading">Adjacency Matrix</h3>
+                </div>
+    
+                <p class = "para align-content-center">
+                        Another way to store a graph in a computer is using an Adjacency matrix. This is a simpler way of representing a graph for humans because it is easier to understand than looking at an adjacency list. In an adjacency matrix, every element of the matrix Is initially 0 and you traverse down the row looking at the column finding where there is an edge. When the edge is found then you put a 1 down there and continue till you run through the whole graph. The slight disadvantage to an adjacency matrix versus an adjacency list is that the adjacency matrix takes significantly more space to store the graph than using the adjacency list because it has V columns and V rows leading to a space complexity of (V^2).
+                </p>
+
+                <div class = "adjacencyMatrix">
+                    <img class = "adjacencyMatrix" src = "img/AdjacencyMatrix.png">
+
+                    <br>
+                    <p>How the Same graph looks when using the adjacency matrix representation</p>
+
+                </div>
+
+            </div>
+
+
+        <!--Graph Traversal Splitter-->
+
+            <div class = "Intro-Background sticky-top">
+                <div class = "container-fluid"> 
+                        <br>
+                       <h1 class = "Introduction">How do you Traverse through a Graph?</h1>
+                       <br>
+                </div>
+            </div>
+            
+
+            <br>
+
+        <!--BFS Section-->
+            <div class = "container-fluid" >
+                <div class="row">
+                    <div class="col-md-6" onclick="bft()">
+                            <div class = "heading_box" >
+                                <h3 class = "heading">Breadth First Search</h3>
+                            </div>
+
+                            <p class = "para">BFS is a graph traversal technique where the algorithm tries to hit as many vertices on as many different branches as possible. For BFS the it finds all of the nodes that are connected to a particular vertex and connects to all of
+                                    its adjacent matrices rather than finding one and following that path until there is nothing left. The advantages of BFS are that the solution is guaranteed to be found if there is a solution that exists in the graph. Furthermore,
+                                    if there is more than one solution, in the graph, then it will find the solution with the least number of steps. The major con with bfs, is what happens when the solution is far away. If the solution is far away then the solution
+                                    will take a lot longer to find as opposed to using dfs. (Click Here to start the BFS animation).
+                            </p>
+                    </div>
+
+
+                    <div class="col-md-6" onclick="dft()">
+                        <div class = "heading_box">
+                            <h3 class = "heading">Depth First Search</h3>
+                        </div>
+                    
+                                
+                        <p class = "para">The depth first search algorithm has more applications than that of the breadth first search. As opposed to the bfs algorithm, the dfs search discovers a branch from the root node and then follows that branch until there are no more
+                                    vertices to be found over there. The DFS algorithm is more advantageous than the BFS algorithm because it has a smaller space and time complexity, and it finds the farther away solution a lot faster than bfs. However, even though
+                                    there are space and time complexity benefits by using DFS, it is not always guaranteed to find a solution because it could get stuck in an unwanted alley. Some of the applications of DFS are that it can be used for both finding
+                                    the strongly connected components of a graph and it can topologically sort a graph. (Click Here to start the DFS animation).
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class = "container-fluid">
+                
+                <br>
+
+                <p class = "animationPara" >How BFS and DFS run given a graph.</p>
+
+                <div id="traverse" onclick="resetTraversal()">
+                    <script src="index.js"></script> 
+                </div>
+
+                <p class = "animationPara" >Press the Graph to Reset the Animation</p>
+            </div>
+                
+
+            
+        <!--Other Applications-->
+            <div class = "container-fluid">
+
+                    <div class = "heading_box">
+                            <h3 class = "heading">Other Applications</h3>
+                        </div>
+                
+                <div class = "row">
+                
+                
+                
+                <div class = "col-md-6">
+                <p class = "para align-content-center">
+                        Topological Sort is way to Sort a directed acyclic graph by running DFS on the graph and storing the vertices based on the finishing times of the search. This is useful in order to order a list of dependencies such as the python pip manager so that you can have a list of dependencies. Topological sort is also useful when you have to run through a specific set of instructions in a particular order Another application of the DFS algorithm is used by strongly connected components. By running DFS on the transpose of a graph, it allows you to  find the strongly connected components of a graph. A strongly connected component is a section of a directed graph where you can reach the most vertices and return to the source vertex from the same starting point
+                </p>
+                </div>
+                
+                <div class = "col-md-6">
+                <div class = "SCC">
+                    <img src = "img/SCC.png" class = "SCC">
+
+                    <br>
+                    <p>
+                        How Strongly Connected Components look in a graph
+                    </p>
+                </div>
+            </div>
+            </div>
+
+            </div>
+
+       
+             <!--Recap Splitter-->
+             <div class = "Intro-Background ">
+                    <div class = "container-fluid"> 
+                           <br>
+                           <h1 class = "Introduction">Recap</h1>
+                           <br>
+                    </div>
+            </div>
+    
+                <br>
+
+            <!--Recap Text-->
+            <div class = "container-fluid">
+                        <p class = "para align-content-center">
+                                There are 2 different searches that you can run on a graph, The depth first search and the breadth first search. The breadth first search searches layer by layer using a blanket style search in order to find a node whereas the depth first search tries to find a node by following an edge until it can no longer find a node to go to and then it will backtrack to the last node where it had a different branch. DFS is mainly used for topologically sorting a graph and for finding the strongly connected components of a graph.
+                        </p>
+            </div>
+
+
+
+    </body>
