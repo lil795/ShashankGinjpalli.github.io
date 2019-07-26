@@ -6,7 +6,9 @@ html, body{
   height: 100%;
   width: 100%;
   font-family: "Poppins" , sans-serif;
-  color: #222;
+  background-color: #1a1a1d;
+ 
+  color: white;
   scroll-behavior: smooth;
 
 }
@@ -18,11 +20,12 @@ html, body{
 }
 
 .navbar{
-    background-color: #ff652f;
+  background-color: #c3073f;
+  color: white;
 }
 
 .navbar-spacing{
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
   
 .padding{
@@ -33,13 +36,14 @@ html, body{
 }
 
 h1{
-    color: #ff652f;
+  color: white;
 }
 
-hr{
+
+  hr{
     padding-top: 2rem;
-    border-top: 3px solid #ff652f;
-    color: #ff652f;
+    border-top: 5px solid #c3073f;
+    color: #c3073f;
     width: 95%;
     display: block;
     margin-left: auto;
