@@ -50,15 +50,36 @@ h1{
     margin-right: auto;
   }
 
-  #Introduction p{
+   p{
       background-color: #222629;
       color: #c5c6c7;
       border-radius: 40px;
       font-size: 1.5em;
   }
 
-  #Introduction img{
+ img{
     width: 100%;
     height: auto;
     margin: auto;
+}
+
+#Maze img{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#Maze p{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Conclusion p{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
