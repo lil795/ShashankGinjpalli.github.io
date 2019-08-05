@@ -37,6 +37,7 @@ html, body{
 
 h1{
   color: white;
+     -webkit-animation: fadein 1s
 }
 
 
@@ -55,12 +56,14 @@ h1{
       color: #c5c6c7;
       border-radius: 40px;
       font-size: 1.5em;
+        -webkit-animation: fadein 2.5s
   }
 
  img{
     width: 100%;
     height: auto;
     margin: auto;
+      -webkit-animation: fadein 1.5s
 }
 
 #Maze img{
@@ -68,6 +71,7 @@ h1{
     height: auto;
     margin-left: 15%;
     margin-right: 15%;
+     -webkit-animation: fadein 1.5s
 }
 
 #Maze p{
@@ -75,6 +79,7 @@ h1{
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+     -webkit-animation: fadein 2.5s
 }
 
 #Conclusion p{
@@ -82,4 +87,11 @@ h1{
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+     -webkit-animation: fadein 2.5s
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
