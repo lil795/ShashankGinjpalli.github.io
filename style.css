@@ -7,10 +7,10 @@ html, body{
   width: 100%;
   font-family: "Poppins" , sans-serif;
     background-color: #101013;
- 
+
   color: white;
   scroll-behavior: smooth;
-    
+
 
 }
 
@@ -65,6 +65,11 @@ p, h3{
 h1{
   color: white;
      -webkit-animation: fadein 1s
+}
+
+.experience{
+  color: white;
+     -webkit-animation: fadein 3s
 }
 
 
@@ -233,4 +238,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
