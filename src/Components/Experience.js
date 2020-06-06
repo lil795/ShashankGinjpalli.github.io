@@ -68,7 +68,7 @@ class Experience extends React.Component{
                 </Container>
                 <br/>
                 <Container fluid = {true}>
-                    <p className = "text-right font-weight-bolder orange-gradient">See More...</p>
+                    <p className = "text-right remove-color-hyperlink font-weight-bolder orange-gradient">See More...</p>
                 </Container>
                 <br />
                 <br />

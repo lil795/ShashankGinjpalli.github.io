@@ -13,9 +13,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.remove-hyperlink { 
-  color: #000; 
-} 
+
+
+.remove-color-hyperlink:hover{
+  color: #bbb;
+  text-decoration: none;
+}
+
+.remove-hyperlink{
+  color:#000;
+}
 
 .remove-hyperlink:hover{
   color: #000;
@@ -71,6 +78,23 @@ code {
 
 .contact{
   min-height: 10vh;
+}
+
+
+.skill-level-confident{
+  background-color: #94f112;
+  box-shadow: 5px 2px 5px lightgray;
+
+}
+
+.skill-level-medium{
+  background-color: #FAED26;
+  box-shadow: 5px 2px 5px lightgray;
+}
+
+.skill-level-beginner{
+  background-color: #4285f4;
+  box-shadow: 5px 2px 5px lightgray;
 }
 
 

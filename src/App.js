@@ -14,11 +14,6 @@ import R from './assets/files/ShashankGinjpalli_Resume.pdf'
 
 class App extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
-  
-
   render(){
     return (
       <Router>
