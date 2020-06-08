@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 import Crd from '../Components/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
@@ -68,7 +70,7 @@ class Experience extends React.Component{
                 </Container>
                 <br/>
                 <Container fluid = {true}>
-                    <p className = "text-right remove-color-hyperlink font-weight-bolder orange-gradient">See More...</p>
+                    <Link className="text-right remove-color-hyperlink font-weight-bolder orange-gradient" to="/allExperience">See More...</Link>
                 </Container>
                 <br />
                 <br />

@@ -31,9 +31,9 @@ function Skills(){
           <br/>
           <h6 className="lead">Other Skills</h6>
           <Row className = "d-flex flex-row ml-auto">
-            <h6 className="p-1 mr-3 bg-dark text-white">Photoshop</h6>
-            <h6 className="p-1 mr-3 bg-dark text-white">Adobe Illustrator</h6>
-            <h6 className="p-1 mr-3 bg-dark text-white">Graphic Design</h6>
+            <h6 className="p-1 mr-3 bg-dark box-shadow text-white">Photoshop</h6>
+            <h6 className="p-1 mr-3 bg-dark box-shadow text-white">Adobe Illustrator</h6>
+            <h6 className="p-1 mr-3 bg-dark box-shadow text-white">Graphic Design</h6>
 
 
           </Row>

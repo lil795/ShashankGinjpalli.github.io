@@ -3,11 +3,12 @@ import { BrowserRouter as Router,Route, Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-
+ 
 
 
 import './App.css';
 import Home from './pages/Home';
+import allExperience from './pages/allExperience'
 import R from './assets/files/ShashankGinjpalli_Resume.pdf'
 
 
@@ -29,7 +30,7 @@ class App extends React.Component {
         </Container>
         
         <Route path='/' exact render={() => <Home />} />
-        {/* <Route path='/resume' render={() => <Resume />}/> */}
+        <Route path='/allExperience' render={() => <allExperience/>}/>
       </Router> 
     );
   }
