@@ -8,7 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 
 import './App.css';
 import Home from './pages/Home';
-import allExperience from './pages/allExperience'
+import allExperience from './pages/allExperience';
 import R from './assets/files/ShashankGinjpalli_Resume.pdf'
 
 
@@ -30,7 +30,7 @@ class App extends React.Component {
         </Container>
         
         <Route path='/' exact render={() => <Home />} />
-        <Route path='/allExperience' render={() => <allExperience/>}/>
+        <Route path='/allExperience' render={() => <allExperience />}/>
       </Router> 
     );
   }

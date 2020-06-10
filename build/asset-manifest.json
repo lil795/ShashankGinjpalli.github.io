@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.73df2094.chunk.css",
-    "main.js": "/static/js/main.b1d5f3ab.chunk.js",
-    "main.js.map": "/static/js/main.b1d5f3ab.chunk.js.map",
+    "main.css": "/static/css/main.22efc885.chunk.css",
+    "main.js": "/static/js/main.45237de7.chunk.js",
+    "main.js.map": "/static/js/main.45237de7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d4fc8b2f.js",
     "runtime-main.js.map": "/static/js/runtime-main.d4fc8b2f.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.8f857800.chunk.js": "/static/js/2.8f857800.chunk.js",
-    "static/js/2.8f857800.chunk.js.map": "/static/js/2.8f857800.chunk.js.map",
+    "static/js/2.6af15b1d.chunk.js": "/static/js/2.6af15b1d.chunk.js",
+    "static/js/2.6af15b1d.chunk.js.map": "/static/js/2.6af15b1d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d791465d1b6f8fd0ce2bcd673eb1b3cf.js": "/precache-manifest.d791465d1b6f8fd0ce2bcd673eb1b3cf.js",
+    "precache-manifest.a7c096bad8b52cb4294c84bb58dc7202.js": "/precache-manifest.a7c096bad8b52cb4294c84bb58dc7202.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.73df2094.chunk.css.map": "/static/css/main.73df2094.chunk.css.map",
-    "static/js/2.8f857800.chunk.js.LICENSE.txt": "/static/js/2.8f857800.chunk.js.LICENSE.txt",
+    "static/css/main.22efc885.chunk.css.map": "/static/css/main.22efc885.chunk.css.map",
+    "static/js/2.6af15b1d.chunk.js.LICENSE.txt": "/static/js/2.6af15b1d.chunk.js.LICENSE.txt",
     "static/media/ASU.png": "/static/media/ASU.157e8ded.png",
     "static/media/MovieList.png": "/static/media/MovieList.462e9992.png",
-    "static/media/ShashankGinjpalli_Resume.pdf": "/static/media/ShashankGinjpalli_Resume.2920cfd1.pdf",
+    "static/media/ShashankGinjpalli_Resume.pdf": "/static/media/ShashankGinjpalli_Resume.eca82a1a.pdf",
     "static/media/engineering.png": "/static/media/engineering.6a8af1b9.png",
     "static/media/graphAlgorithms.png": "/static/media/graphAlgorithms.cce8a7e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d4fc8b2f.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.8f857800.chunk.js",
-    "static/css/main.73df2094.chunk.css",
-    "static/js/main.b1d5f3ab.chunk.js"
+    "static/js/2.6af15b1d.chunk.js",
+    "static/css/main.22efc885.chunk.css",
+    "static/js/main.45237de7.chunk.js"
   ]
 }
