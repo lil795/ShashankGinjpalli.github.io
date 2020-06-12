@@ -46,11 +46,12 @@ code {
 
 .center{
   text-align: center;
+
 }
 .align-center-left{
   display: inline-block;
   text-align: left;
-  max-width: 80%;
+  width: 80%;
 }
 
 .intro{
@@ -84,24 +85,23 @@ code {
 
 .skill-level-confident{
   background-color: #94f112;
-  box-shadow: 5px 2px 5px lightgray;
+  box-shadow: 0px 0px 10px 1px #CCC;
 
 }
 
 .skill-level-medium{
   background-color: #FAED26;
-  box-shadow: 5px 2px 5px lightgray;
+  box-shadow: 0px 0px 10px 1px #CCC;
 }
 
 .skill-level-beginner{
   background-color: #4285f4;
-  box-shadow: 5px 2px 5px lightgray;
+  box-shadow: 0px 0px 10px 1px #CCC;
 }
 
 .box-shadow{
-  box-shadow: 5px 2px 5px lightgray;
+  box-shadow: 0px 0px 10px 1px #CCC;
 }
-
 
 
 

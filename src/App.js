@@ -29,8 +29,8 @@ class App extends React.Component {
               </Navbar>
         </Container>
         
-        <Route path='/' exact render={() => <Home />} />
-        <Route path='/allExperience' render={() => <allExperience />}/>
+        <Route path='/' exact component = {Home} />
+        <Route path='/Experience' component = {allExperience}/>
       </Router> 
     );
   }

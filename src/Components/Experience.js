@@ -62,7 +62,9 @@ class Experience extends React.Component{
     render(){
         return(
             <div>
+              
                 <h5 className="font-weight-bolder">Recent Experience</h5>
+               
                 <Container fluid = {true}>
                     <Row className = "justify-content-around margins">
                         {this.makeItems(this.state.items)}
@@ -70,7 +72,7 @@ class Experience extends React.Component{
                 </Container>
                 <br/>
                 <Container fluid = {true}>
-                    <Link className="text-right remove-color-hyperlink font-weight-bolder orange-gradient" to="/allExperience">See More...</Link>
+                    <Link className="text-right remove-color-hyperlink font-weight-bolder orange-gradient" to="/Experience">See More...</Link>
                 </Container>
                 <br />
                 <br />

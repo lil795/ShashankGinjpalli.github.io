@@ -29,11 +29,13 @@ function Skills(){
 
           </Row>
           <br/>
+          <br/>
           <h6 className="lead">Other Skills</h6>
           <Row className = "d-flex flex-row ml-auto">
             <h6 className="p-1 mr-3 bg-dark box-shadow text-white">Photoshop</h6>
             <h6 className="p-1 mr-3 bg-dark box-shadow text-white">Adobe Illustrator</h6>
             <h6 className="p-1 mr-3 bg-dark box-shadow text-white">Graphic Design</h6>
+            <h6 className="p-1 mr-3 bg-dark box-shadow text-white">Photography</h6>
 
 
           </Row>
