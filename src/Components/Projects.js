@@ -63,6 +63,7 @@ class Projects extends React.Component {
         return(
             <div>
                 <h5 className="font-weight-bolder">Personal Projects</h5>
+                <br/>
                 <Container fluid={true} className = 'margins'>
                     <Row className="experience">
                         {this.makeItems(this.state.items)}

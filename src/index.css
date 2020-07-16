@@ -72,6 +72,11 @@ code {
  
 }
 
+.neumorphicShadow{
+   box-shadow: 12px 12px 18px 0 #CCC,
+    -12px -12px 18px 0 rgba(230, 230, 230, 0.5);
+}
+
 .margins{
   /* min-height: 85vh; */
   margin-left: 2vw;
@@ -84,7 +89,7 @@ code {
 
 
 .skill-level-confident{
-  background-color: #94f112;
+  background-color: #00ac00;
   box-shadow: 0px 0px 10px 1px #CCC;
 
 }
@@ -95,7 +100,7 @@ code {
 }
 
 .skill-level-beginner{
-  background-color: #4285f4;
+  background-color: #000080;
   box-shadow: 0px 0px 10px 1px #CCC;
 }
 

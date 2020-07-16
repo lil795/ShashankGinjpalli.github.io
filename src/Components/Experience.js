@@ -51,7 +51,7 @@ class Experience extends React.Component{
             return (
 
                 <Col xl={4} lg={6} md={9} sm={12} >
-                    <a href={item.source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
+                    <a href={item.source} target="_blank" className="remove-hyperlink " rel="noopener noreferrer">
                         <Crd title={item.title} company={item.company} time={item.time} image={item.image} text = {item.text} />
                     </a>
                 </Col>
@@ -64,6 +64,7 @@ class Experience extends React.Component{
             <div>
               
                 <h5 className="font-weight-bolder">Recent Experience</h5>
+                <br/>
                
                 <Container fluid = {true}>
                     <Row className = "justify-content-around margins">

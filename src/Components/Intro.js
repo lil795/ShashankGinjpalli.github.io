@@ -27,7 +27,7 @@ function Intro(props){
                         <a href="https://github.com/ShashankGinjpalli" target="_blank" rel="noopener noreferrer" className="social-icons">
                             <FontAwesomeIcon icon={faGithubSquare} size="2x" />
                         </a>
-                        <FontAwesomeIcon icon={faMapMarkerAlt} size="1.5x" className="mr-3" />
+                        <FontAwesomeIcon icon={faMapMarkerAlt} size="1.5x" className="mr-3 orange-gradient"  />
                         <h6 className="d-inline font-weight-bolder">Cupertino, California</h6>
 
                         <br />
