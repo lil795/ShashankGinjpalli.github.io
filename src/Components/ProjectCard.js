@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 
 function ProjectCard(props){
     return(
-        <Card className="crd-style neumorphicIndent p-4" style={{borderRadius: '50px', border: 'none', height: 'auto', marginRight: 'auto', marginLeft: 'auto' }}>
+        <Card className="crd-style neumorphicShadow p-4" style={{borderRadius: '50px', border: 'none', height: 'auto', marginRight: 'auto', marginLeft: 'auto' }}>
             <br/>
             <Card.Img className= "neumorphicShadow" style={{
             
@@ -31,6 +31,7 @@ function ProjectCard(props){
                 <Card.Text>
                     {props.headline}
                 </Card.Text>
+                <br/>
                 <a className="orange-gradient remove-color-hyperlink font-weight-bolder p-2" href={props.link} target="_blank" rel="noopener noreferrer">See Details...</a>
             </Card.Body>
         </Card>

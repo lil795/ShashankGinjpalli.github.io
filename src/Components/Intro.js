@@ -11,7 +11,7 @@ import {faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons"
 function Intro(props){ 
     
     return(
-        <Jumbotron className = "jumbo-fluid bg-transparent intro neumorphicIndent" style ={{borderRadius: '40px'}}>
+        <Jumbotron className = "jumbo-fluid bg-transparent intro neumorphicShadow" style ={{borderRadius: '40px'}}>
             <Container fluid={true}>
                         <h1 className= "display-3 font-weight-bolder orange-gradient">{props.title}</h1>
                         <h3 className = 'font-weight-bolder'>{props.subTitle}</h3>

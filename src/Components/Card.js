@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card'
 
 function Crd(props){
     return(
-        <Card className= "crd-style p-4 neumorphicIndent" style={{borderRadius: '50px', border: 'none', height: 'auto', marginRight: 'auto', marginLeft: 'auto'}}>
+        <Card className= "crd-style p-4 neumorphicShadow" style={{borderRadius: '50px', border: 'none', height: 'auto', marginRight: 'auto', marginLeft: 'auto'}}>
             <Card.Img className= "neumorphicShadow" style={{
                 maxWidth: '300px',
                 height: 'auto',

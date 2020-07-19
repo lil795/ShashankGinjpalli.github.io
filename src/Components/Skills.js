@@ -10,7 +10,7 @@ function Skills(){
 
         <br />
 
-        <Container fluid={true} className="margins neumorphicIndent p-4 justify-content-center">
+        <Container fluid={true} className="margins neumorphicShadow p-4 justify-content-center">
           <br/>
           <h6 className="lead">Technical Skills</h6>
           <Row className = 'd-flex flex-row ml-auto'>
