@@ -4,7 +4,7 @@ body {
   justify-content: center;
   
   letter-spacing: 0.05em;
-  /* font-family: Montserrat, sans-serif; */
+  background-color: #f0f0f3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,11 +14,22 @@ code {
     monospace;
 }
 
-
+.remove-color-hyperlink{
+  border-radius: 20px;
+  box-shadow:  3px 3px 6px #d9d9d9, 
+             -3px -3px 6px #fafafa;
+}
 
 .remove-color-hyperlink:hover{
   color: #bbb;
   text-decoration: none;
+
+  border-radius: 20px;
+
+  box-shadow: inset 3px 3px 10px #d9d9d9, 
+              inset -3px -3px 10px #fafafa;
+
+
 }
 
 .remove-hyperlink{
@@ -57,7 +68,7 @@ code {
 .intro{
   font-family: 'Roboto' , sans-serif;
   margin-top: 1vw;
-  min-height: 65vh;
+  min-height: 55vh;
 }
 
 .social-icons{
@@ -73,8 +84,24 @@ code {
 }
 
 .neumorphicShadow{
-   box-shadow: 12px 12px 18px 0 #CCC,
-    -12px -12px 18px 0 rgba(230, 230, 230, 0.5);
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow:  15px 15px 30px #d9d9d9, 
+             -15px -15px 30px #fafafa;
+}
+
+.neumorphicIndent{
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow:  inset 15px 15px 31px #d9d9d9, 
+               inset -15px -15px 31px #fafafa;
+}
+
+.neumorphicIndentSmall{
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:  inset 3px 3px 6px #d9d9d9, 
+               inset -3px -3px 6px #fafafa;
 }
 
 .margins{
