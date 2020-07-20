@@ -62,17 +62,17 @@ class allExperience extends React.Component {
                 <Container fluid = {true}>
                         <Row className="justify-content-around margins">
 
-                            <Col xl={4} lg={6} md={9} sm={12} >
+                                <Col xl={4} lg={6} md={9} sm={12} className="p=3">
                                 <a href={this.state.items[0].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
                                         <Crd title={this.state.items[0].title} company={this.state.items[0].company} time={this.state.items[0].time} image={this.state.items[0].image} text={this.state.items[0].text} />
                                 </a>
                             </Col>
-                            <Col xl={4} lg={6} md={9} sm={12} >
+                                <Col xl={4} lg={6} md={9} sm={12} className="p=3">
                                 <a href={this.state.items[1].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
                                     <Crd title={this.state.items[1].title} company={this.state.items[1].company} time={this.state.items[1].time} image={this.state.items[1].image} text={this.state.items[1].text} />
                                 </a>
                             </Col>
-                            <Col xl={4} lg={6} md={9} sm={12} >
+                            <Col xl={4} lg={6} md={9} sm={12} className = "p=3">
                                 <a href={this.state.items[2].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
                                     <Crd title={this.state.items[2].title} company={this.state.items[2].company} time={this.state.items[2].time} image={this.state.items[2].image} text={this.state.items[2].text} />
                                 </a>
@@ -81,7 +81,7 @@ class allExperience extends React.Component {
                         <br/>
                         <Row className="justify-content-around margins">
 
-                            <Col xl={4} lg={6} md={9} sm={12} >
+                                <Col xl={4} lg={6} md={9} sm={12} className="p=3">
                                 <a href={this.state.items[3].source} target="_blank" className="remove-hyperlink" rel="noopener noreferrer">
                                     <Crd title={this.state.items[3].title} company={this.state.items[3].company} time={this.state.items[3].time} image={this.state.items[3].image} text={this.state.items[3].text} />
                                 </a>

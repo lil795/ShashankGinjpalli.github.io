@@ -50,7 +50,7 @@ class Experience extends React.Component{
         return items.map(item => {
             return (
 
-                <Col xl={4} lg={6} md={9} sm={12} >
+                <Col xl={4} lg={6} md={9} sm={12} xs = {12}>
                     <a href={item.source} target="_blank" className="remove-hyperlink p-1" rel="noopener noreferrer">
                         <Crd title={item.title} company={item.company} time={item.time} image={item.image} text = {item.text} />
                     </a>
@@ -67,13 +67,13 @@ class Experience extends React.Component{
          
                
                 <Container fluid = {true}>
-                    <Row className = "justify-content-around margins">
+                    <Row className = "margins">
                         {this.makeItems(this.state.items)}
                     </Row>
                 </Container>
                 <br/>
                 <Container fluid = {true}>
-                    <Link className="text-right remove-color-hyperlink font-weight-bolder orange-gradient p-2" to="/Experience">See More...</Link>
+                    <Link className="remove-color-hyperlink font-weight-bolder orange-gradient p-2" to="/Experience">See More...</Link>
                 </Container>
                 <br />
                 <br />

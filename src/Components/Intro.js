@@ -13,11 +13,11 @@ function Intro(props){
     return(
         <Jumbotron className = "jumbo-fluid bg-transparent intro neumorphicShadow" style ={{borderRadius: '40px'}}>
             <Container fluid={true}>
-                        <h1 className= "display-3 font-weight-bolder orange-gradient">{props.title}</h1>
-                        <h3 className = 'font-weight-bolder'>{props.subTitle}</h3>
+                        <h1 className= "headline font-weight-bolder orange-gradient">{props.title}</h1>
+                        <h3 className = 'headlineSub font-weight-bolder'>{props.subTitle}</h3>
                         <br/>
-                        <h4 className = "font-weight-lighter">{props.headlineln1}</h4>
-                        <h4 className = "font-weight-lighter">{props.headlineln2}</h4>
+                        <h4 className = "headlineText font-weight-lighter">{props.headlineln1}</h4>
+                        <h4 className = "headlineText font-weight-lighter">{props.headlineln2}</h4>
                         <br/>
                         <br/>
 
@@ -33,7 +33,8 @@ function Intro(props){
                         <br />
                         <br />
 
-                        <h5 className = "lead" >🚧 Site Currently Under Construction 🚧</h5>
+                        
+                        <h6 className = "" >🚧 Site Currently Under Construction 🚧</h6>
             </Container>
         </Jumbotron>
         

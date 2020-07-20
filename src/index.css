@@ -4,7 +4,7 @@ body {
   justify-content: center;
   
   letter-spacing: 0.05em;
-  background-color: #fffff;
+  background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,6 +12,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.headline{
+  font-size: 50pt;
+}
+
+
+.crdImage{
+  max-width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .remove-color-hyperlink{
@@ -115,25 +127,129 @@ code {
 
 
 .skill-level-confident{
-  background-color: #00ac00;
-  box-shadow: 0px 0px 10px 1px #CCC;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:  inset 3px 3px 10px #00ac00, 
+               inset -3px -3px 6px #fafafa;
+  
 
 }
 
 .skill-level-medium{
-  background-color: #FAED26;
-  box-shadow: 0px 0px 10px 1px #CCC;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:  inset 3px 3px 10px #FAED26, 
+               inset -3px -3px 6px #fafafa;
+
 }
 
 .skill-level-beginner{
-  background-color: #000080;
-  box-shadow: 0px 0px 10px 1px #CCC;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:  inset 3px 3px 10px #000080, 
+               inset -3px -3px 6px #fafafa;
 }
 
 .box-shadow{
   box-shadow: 0px 0px 10px 1px #CCC;
 }
 
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+   { 
+
+    .headline{
+      font-size: 30px;
+    }
+    .headlineSub{
+      font-size: 15pt;
+    }
+
+    .headlineText{
+      font-size: 12pt;
+    }
+
+  .intro{
+    font-family: 'Roboto' , sans-serif;
+    margin-top: 1vw;
+    min-height: 45vh;
+  }
+
+   .cardText{
+      font-size: 11pt;
+      
+    }
+
+    .crdImage{
+      max-width: 150px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .margins{
+      margin-left: 0vh;
+      margin-right: auto;
+    }
+
+  .social-icons{
+    color: black;
+    margin-right: 1vw;
+    /* box-shadow: 0px 0px 3px 1px #ccc; */
+    }
+
+  .social-icons:hover{
+    color: gray;
+    margin-right: 1vw;
+  
+  }
+
+
+}
+
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1620px)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+    
+    .headline{
+      font-size: 30px;
+    }
+    .headlineSub{
+      font-size: 15pt;
+    }
+
+    .headlineText{
+      font-size: 12pt;
+    }
+
+   
+
+  .intro{
+    font-family: 'Roboto' , sans-serif;
+    margin-top: 1vw;
+    min-height: 45vh;
+  }
+
+  .social-icons{
+    color: black;
+    margin-right: 1vw;
+    /* box-shadow: 0px 0px 3px 1px #ccc; */
+    }
+
+  .social-icons:hover{
+    color: gray;
+    margin-right: 1vw;
+  
+  }
+
+
+}
 
 
 
