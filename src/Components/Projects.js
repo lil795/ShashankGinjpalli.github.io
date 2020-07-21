@@ -52,7 +52,7 @@ class Projects extends React.Component {
         return items.map(item => {
             return (
 
-                <Col className = "p-3" xl={6} lg={12} md={12} sm={12} >
+                <Col className = "p-3" xl={6} lg={6} md={12} sm={12} >
                    <ProjectCard className = "p-1" img = {item.img} title={item.title} dates = {item.dates} projectType={item.projectType} skill1={item.skill1} skill2={item.skill2} skill3={item.skill3} skill4={item.skill4} headline={item.headline} link={item.link}/>
                 </Col>
             );
